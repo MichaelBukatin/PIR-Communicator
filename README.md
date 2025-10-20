@@ -14,3 +14,15 @@ We'll start with a diagram I sketched out in the first program I found on the in
 Here it is:
 
 ![Diagram](1.jpg)
+
+I divided the circuit into two small blocks. 
+ The first contains the battery, fuse, switch, and 5V step-up module. 
+ It has a USB port for powering the ESP32 and a mini-USB port for charging the battery.
+ (The circuit is designed in such a way that the battery will only charge when the switch is on.)
+
+ And the second one contains the controller itself, a 220 ohm resistor, an LED, and the main PIR sensor AM312
+
+ And a simple connection of two circuits via a USB to USB B mini cable
+
+ ![all components](2.jpg)
+ 
